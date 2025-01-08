@@ -179,6 +179,11 @@ One more software is there i.e. Scout, that is specifically used to analyse imag
 
 At very last delete whole cluster by : eksctl delete cluster --name devopsproject
 
+Useful links:
+https://github.com/vimallinuxworld13/devops_project_based_learning_2025_batch1
+download zip for istio, so it contains both ctl and other folder: https://github.com/istio/istio/releases/tag/1.24.2
+
+
 
 
 
