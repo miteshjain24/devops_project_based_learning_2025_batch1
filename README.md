@@ -182,6 +182,11 @@ At very last delete whole cluster by : eksctl delete cluster --name devopsprojec
 Useful links:
 https://github.com/vimallinuxworld13/devops_project_based_learning_2025_batch1
 download zip for istio, so it contains both ctl and other folder: https://github.com/istio/istio/releases/tag/1.24.2
+https://drive.google.com/drive/folders/1lGQyBwZHTa-dtNroFNm0BbuaRactQTPp
+
+https://discord.com/invite/k37pHhUb
+
+https://bit.ly/LW_discord
 
 
 
