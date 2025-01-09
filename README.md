@@ -143,6 +143,7 @@ git push
 Note: Setting up Kailii, Jaeger, Prometheus on kubernates cluster is tough task, so much configuration is required. So to setup these kind of things helm is useful.
 it is having small package called chart. we can download helm ctl and perform the activity.
 However, to make it short for now in follwoing project- we are using other approache.already some setup manifests(like grafana,loki,prometheus,kiali etccs) are available so we are just applying these.
+Helm is package manager for kubernates like for python we are having pip.
  
 cd "C:\Users\Vimal Daga\Downloads\istio-1.24.2-win-amd64\istio-1.24.2\samples"
 
