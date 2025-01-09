@@ -188,6 +188,10 @@ https://discord.com/invite/k37pHhUb
 
 https://bit.ly/LW_discord
 
+Note: For one time kube configuration we should do by kube apply only not by argocd. If any file configuration keep on changing then push these file to github where is argocd will take care.
+
+Note: In kiali, we can set the weight traffic and download the ds.yaml and vs.yaml from kiali and push into github where in argocd will deploy it and we started seeing the traffic as per our yamls.
+
 
 
 
