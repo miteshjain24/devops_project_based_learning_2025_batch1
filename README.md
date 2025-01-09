@@ -86,6 +86,7 @@ Note: argocd enable the application resourse on kubernates: kubectl get applicat
 
 ############################### ISTIO-SERVICE MASH ######################
 Candary deployment stragey: when we want weighted deployment meaning we can send 5% to one pod, 45% other and remaining 50% other. this kind of unequal traffic distribution is called Candry deployment but kubernates dont have capability to perform candry deployment which can be resolved by Istio service mash.
+Basically kubernates can perform loadbanalcing in Round roubin fasion. It distribute traffic equal to all pods. It can't perform weight distribution.
 
 Another reason to use istio for observalibility like howmuch traffic came, which pod down or slow, metric information ects we can get using istio. For that istio use envoy proxy. basically in pod it creates one more container in front of our actual app container. every in and out traffic passthrough envoy proxy only. envoy is setting service mash.
 Envoy work as side car container pattern here.
